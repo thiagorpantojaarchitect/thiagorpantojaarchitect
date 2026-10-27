@@ -2,7 +2,7 @@
 
 <img src="assets/header.svg" width="100%" alt="Thiago Pantoja — Arquitetura, Platform Engineering, System Design e Motion Design" />
 
-### Olá — eu projeto sistemas que escalam e experiências que se movem.
+### Olá, Eu projeto sistemas que escalam e experiências que se movem.
 
 Arquiteto de software e engenheiro de plataformas na **[Easynext](https://easynext.cloud)**. Trabalho onde engenharia, dados e design se encontram: da arquitetura de plataformas e pipelines de dados ao front-end com motion design, passando por estratégia de marketing digital e mentoria de desenvolvedores.
 
