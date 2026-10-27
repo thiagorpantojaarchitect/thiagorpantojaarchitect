@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" aria-hidden="true">
+  <style>
+    .track { stroke: #9a9a9a; stroke-opacity: .25; }
+    .spark { fill: #f59e0b; animation: travel 6s cubic-bezier(.65,0,.35,1) infinite; }
+    @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 10%, 90% { opacity: 1; } 100% { transform: translateX(1180px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .spark { animation: none; } }
+  </style>
+  <line class="track" x1="0" y1="12" x2="1200" y2="12"/>
+  <rect class="spark" x="0" y="10" width="20" height="4" rx="2"/>
+</svg>
