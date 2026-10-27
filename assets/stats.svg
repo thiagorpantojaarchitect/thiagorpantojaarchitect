@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="10+ anos em infraestrutura e nuvem; 60% de redução de custos GCP com FinOps; 4 nuvens: GCP, AWS, Azure e OCI; 132 servidores no estudo de migração para o GCP">
+  <style>
+    .card { fill: #121212; stroke: #ffffff; stroke-opacity: .08; }
+    .num { font: 700 44px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e5e2e1; }
+    .acc { fill: #f59e0b; }
+    .lbl { font: 400 13px ui-monospace, Menlo, Consolas, monospace; letter-spacing: 1px; fill: #9a9a9a; }
+    .item { opacity: 0; animation: up .8s cubic-bezier(.2,.8,.2,1) forwards; }
+    .i2 { animation-delay: .25s; } .i3 { animation-delay: .5s; } .i4 { animation-delay: .75s; }
+    .bar { fill: #f59e0b; transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.2s 1s ease-out forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes grow { to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { .item, .bar { animation: none; opacity: 1; transform: none; } }
+  </style>
+
+  <g class="item i1">
+    <rect class="card" x="0.5" y="0.5" width="284" height="149" rx="14"/>
+    <text class="num" x="28" y="70">10<tspan class="acc">+</tspan></text>
+    <text class="lbl" x="28" y="104">ANOS EM INFRA &amp; NUVEM</text>
+    <rect class="bar" x="28" y="122" width="60" height="3" rx="1.5"/>
+  </g>
+  <g class="item i2">
+    <rect class="card" x="305.5" y="0.5" width="284" height="149" rx="14"/>
+    <text class="num" x="333" y="70">−60<tspan class="acc">%</tspan></text>
+    <text class="lbl" x="333" y="104">CUSTOS GCP COM FINOPS</text>
+    <rect class="bar" x="333" y="122" width="60" height="3" rx="1.5"/>
+  </g>
+  <g class="item i3">
+    <rect class="card" x="610.5" y="0.5" width="284" height="149" rx="14"/>
+    <text class="num" x="638" y="70">4<tspan class="acc">×</tspan></text>
+    <text class="lbl" x="638" y="104">CLOUDS · GCP AWS AZURE OCI</text>
+    <rect class="bar" x="638" y="122" width="60" height="3" rx="1.5"/>
+  </g>
+  <g class="item i4">
+    <rect class="card" x="915.5" y="0.5" width="284" height="149" rx="14"/>
+    <text class="num" x="943" y="70">132</text>
+    <text class="lbl" x="943" y="104">SERVIDORES · DC → GCP</text>
+    <rect class="bar" x="943" y="122" width="60" height="3" rx="1.5"/>
+  </g>
+</svg>
